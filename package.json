@@ -1,0 +1,21 @@
+{
+  "name": "cynetrace-platform",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Plateforme mobile-first de suivi cynégétique avec Android, API NestJS et backoffice Next.js.",
+  "workspaces": [
+    "apps/api",
+    "apps/backoffice",
+    "packages/contracts"
+  ],
+  "scripts": {
+    "build:contracts": "npm run build --workspace @cynetrace/contracts",
+    "build:api": "npm run build:contracts && npm run build --workspace api",
+    "build:backoffice": "npm run build:contracts && npm run build --workspace backoffice",
+    "build": "npm run build:contracts && npm run build --workspace api && npm run build --workspace backoffice",
+    "dev:api": "npm run build:contracts && npm run start:dev --workspace api",
+    "dev:backoffice": "npm run build:contracts && npm run dev --workspace backoffice",
+    "lint": "npm run lint --workspace api && npm run lint --workspace backoffice",
+    "test": "npm run test --workspace api"
+  }
+}
