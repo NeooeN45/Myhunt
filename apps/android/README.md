@@ -15,6 +15,6 @@ Application Android native pour la saisie terrain hors-ligne :
 
 ## Configuration
 
-1. Ouvrir [`apps/android`](C:\Users\camil\Documents\New project\apps\android) dans Android Studio.
-2. Remplacer la valeur de [`mapbox_access_token.xml`](C:\Users\camil\Documents\New project\apps\android\app\src\main\res\values\mapbox_access_token.xml) par un token public Mapbox.
+1. Ouvrir `apps/android` dans Android Studio.
+2. Remplacer la valeur de `app/src/main/res/values/mapbox_access_token.xml` par un token public Mapbox.
 3. Synchroniser Gradle.

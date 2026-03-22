@@ -1,4 +1,4 @@
-# CyneTrace Platform
+# Myhunt
 
 Socle monorepo pour une plateforme de suivi cynégétique premium orientée terrain :
 
@@ -21,7 +21,7 @@ L’API expose un préfixe `/api` et des endpoints de base comme `/api/health`, 
 
 ## Android
 
-Le projet Android est prêt à être ouvert dans Android Studio depuis [`apps/android`](C:\Users\camil\Documents\New project\apps\android). Cette machine n’ayant pas Android SDK installé, le build Android n’a pas pu être exécuté ici, mais les scripts Gradle, la structure Compose et les modules Room/WorkManager/Mapbox sont présents.
+Le projet Android est prêt à être ouvert dans Android Studio depuis `apps/android`. Cette machine n’ayant pas Android SDK installé, le build Android n’a pas pu être exécuté ici, mais les scripts Gradle, la structure Compose et les modules Room/WorkManager/Mapbox sont présents.
 
 ## Infrastructure locale
 
